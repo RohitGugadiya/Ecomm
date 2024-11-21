@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+.nav-bar {
+  display: block;
+  height: 70px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  margin: 0;
+}
+.compony-name {
+  display: inline-block;
+  margin: 20px;
+  font-size: 30px;
+}
+.search-div {
+  display: inline-block;
+  margin-left: 600px;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
+.input-search {
+  width: 300px;
+  height: 30px;
+  margin-right: 0;
+  border: none;
+  border-width: 0px;
+}
+.search-div button {
+  height: 30px;
+  margin-left: -3px;
+  border: none;
+}
+.products {
+  margin-top: 20px;
+}
+.product-image {
+  display: block;
+  height: 150px;
+  align-items: center;
+  margin: auto;
+  margin-top: 5px;
+}
+.product-price {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.product-name {
+  display: block;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+.add-to-cart-button {
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.product-card {
+  display: inline-block;
+  width: 200px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(183, 183, 183);
+}
