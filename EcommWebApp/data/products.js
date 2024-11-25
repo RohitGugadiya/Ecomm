@@ -1,4 +1,4 @@
-const products = [
+export const products = [
   {
     id: "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     image: "images/products/athletic-cotton-socks-6-pairs.jpg",
@@ -470,13 +470,3 @@ const products = [
     keywords: ["sweaters", "hoodies", "apparel", "mens"],
   },
 ];
-
-let productsHTML = "";
-products.forEach((products) => {
-  productsHTML += `  <div class="product-card">
-    <img class="product-image" src="${products.image}" />
-    <p class="product-price">$${products.price}<p>
-    <p class="product-name">${products.name}</p>
-    <button class="add-to-cart-button" data-product-name="${products.name}">Add to cart</button>
-  </div>`;
-});

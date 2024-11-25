@@ -1,0 +1,29 @@
+.checkout-products {
+  display: block;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+  margin-top: 10px;
+  width: 400px;
+}
+.checkout-products img {
+  height: 100px;
+  display: inline;
+}
+.checkout-products h1 {
+  font-size: 30px;
+  display: block;
+}
+.checkout-products p {
+  display: block;
+}
+.checkout-img {
+  display: inline-block;
+}
+.checkout-product-btn {
+  display: inline-block;
+  margin-left: 40px;
+}
+.checkout-details {
+  display: inline-block;
+}
